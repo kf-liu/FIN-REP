@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -20,13 +21,13 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/rep/new" className={styles.card}>
+          <Link href="/rep/new" className={styles.card}>
             <h2>报表生成 &rarr;</h2>
-          </a>
+          </Link>
 
-          <a href="/rep/list" className={styles.card}>
+          <Link href="/rep/list" className={styles.card}>
             <h2>报表查看 &rarr;</h2>
-          </a>
+          </Link>
         </div>
       </main>
 

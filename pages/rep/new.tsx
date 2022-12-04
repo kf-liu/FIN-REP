@@ -1,6 +1,7 @@
+import React from 'react'
 import { Table } from 'antd'
 
-export default () => {
+const New = () => {
     return <div>
         <Table
             dataSource={[{}, {}, {}, {}]}
@@ -8,3 +9,4 @@ export default () => {
         />
     </div>
 }
+export default New
